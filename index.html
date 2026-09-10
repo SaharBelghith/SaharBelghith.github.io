@@ -74,9 +74,12 @@
 
 <script>
   // 👉 C'EST ICI QUE TU AJOUTERAS TES COURS PLUS TARD
-  const lessons = [
-    // { title: "Lesson 01 - Animals", file: "lessons/lesson01.html" },
-  ];
+ const lessons = [
+    { title: "Daily Routine", file: "lessons/daily-routine.html" },
+    { title: "Family", file: "lessons/family.html" },
+    { title: "Free Time Activities", file: "lessons/free-time-activities.html" },
+    { title: "Present Simple", file: "lessons/present-simple.html" },
+];
   const games = [
     // { title: "Game 01", file: "games/game01.html" },
   ];
@@ -117,3 +120,9 @@
       document.querySelectorAll("section").forEach(s => s.classList.remove("active"));
       btn.classList.add("active");
       document.getElementById(btn.dataset.tab).classList.add("active");
+    });
+  });
+</script>
+
+</body>
+</html>
